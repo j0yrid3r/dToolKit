@@ -32,8 +32,8 @@ times = amount of bounces / distance = height of bounce / speed = speed of bounc
 Rotate elements to a fixed degree<br/>
 <code>$('.fDiv').fixedRotate({degrees:200});</code><br/>
 <br/>
-Rotate elements random to predefined degrees<br/>
-<code>$('.sDiv').randomRotate();</code><br/>
+Rotate elements random to predefined degrees (16 options r1 - r16, positive and negative values)<br/>
+<code>$('.sDiv').randomRotate({r1:70,r2: -200,r3: 10, r4: -88});</code><br/>
 <br/>
 Rotate elements with animation, degrees = amount of degrees / duration = speed of animation<br/>
 <code>$('.mDiv').animateRotate({degrees:300,duration:8.0});</code>
