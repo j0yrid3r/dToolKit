@@ -1,0 +1,136 @@
+/**
+ * @name        dToolKit Plugin
+ * @author      EAK
+ * @version     0.1
+ * @license     MIT License
+ */
+
+/*
+CSS for sample data
+
+ */
+.scrollBottom, .scrollTop {background:#eeeeee; padding:8px;}
+
+.sDContainer {overflow:hidden;}
+.sDiv {float:left; width: 100px; height: 100px; margin: 0 10px 0 0;background-color: #000;}
+.mDiv {float:left;
+  width: 100px;
+  height: 100px;
+  margin: 0 10px 0 0;
+  background-color: #ffcc00;
+}
+.fDiv {float:left; width: 100px; height: 100px; margin: 0 10px 0 0;background-color: #cccccc;}
+
+/* 
+rainbow css for usage with background activities
+add your personal colorscheme here
+ */
+@keyframes "bg-rainbow" {
+ 0% {
+    background-color: #333;
+ }
+ 20% {
+    background-color: orange;
+ }
+ 40% {
+    background-color: yellow;
+ }
+ 60% {
+    background-color: green;
+ }
+ 80% {
+    background-color: red;
+ }
+ 100% {
+    background-color: violet;
+ }
+
+}
+
+@-moz-keyframes bg-rainbow {
+ 0% {
+   background-color: #333;
+ }
+ 20% {
+   background-color: orange;
+ }
+ 40% {
+   background-color: yellow;
+ }
+ 60% {
+   background-color: green;
+ }
+ 80% {
+   background-color: red;
+ }
+ 100% {
+   background-color: violet;
+ }
+
+}
+
+@-webkit-keyframes "bg-rainbow" {
+ 0% {
+   background-color: #333;
+ }
+ 20% {
+   background-color: orange;
+ }
+ 40% {
+   background-color: yellow;
+ }
+ 60% {
+   background-color: green;
+ }
+ 80% {
+   background-color: red;
+ }
+ 100% {
+   background-color: violet;
+ }
+
+}
+
+@-ms-keyframes "bg-rainbow" {
+ 0% {
+   background-color: #333;
+ }
+ 20% {
+   background-color: orange;
+ }
+ 40% {
+   background-color: yellow;
+ }
+ 60% {
+   background-color: green;
+ }
+ 80% {
+   background-color: red;
+ }
+ 100% {
+   background-color: violet;
+ }
+
+}
+
+@-o-keyframes "bg-rainbow" {
+ 0% {
+   background-color: #333;
+ }
+ 20% {
+   background-color: orange;
+ }
+ 40% {
+   background-color: yellow;
+ }
+ 60% {
+   background-color: green;
+ }
+ 80% {
+   background-color: red;
+ }
+ 100% {
+   background-color: violet;
+ }
+
+}
