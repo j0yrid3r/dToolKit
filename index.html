@@ -31,32 +31,20 @@
         <hr>
 
         <section id="main_content">
-          <h3>Welcome to GitHub Pages.</h3>
+          <h1>dToolKit</h1>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<p>A set of jQuery functions for designers<br>
+What is it? Most of them are css(3) settings called using jQuery.<br>
+How to use? Include <strong>assets/js/jquery.dtoolkit.min.js</strong> in your page (after jquery itself)<br><br>
+All examples can be found in index.html<br><br><strong>V0.1</strong><br><br><strong>Border radius</strong><br>
+tl = top left corner / tr = top right corner / br = bottom right corner / bl = bottom left corner<br><code>$('.sDiv').bRadius({tl:20,br:40});</code><br><br><strong>Scrolling</strong><br>
+Scroll to bottom / top, create an element at the top of the page and one on the bottom of the page and fill them in below<br><code>$('.scrollBottom').scrollBottom();</code><br><code>$('.scrollTop').scrollTop();</code><br><br><strong>Background color</strong><br>
+Rainbow cycle background of any element. To change the color scheme, change it in <strong>assets/css/dtoolkit.css</strong><br><code>$('.mDiv').cycleBGColor({sec:20});</code><br><br>
+Daily background color change on two weekly basis (max: 14 colors c1 - c14). Have a different background color every day. 1 set of colors for the even weeks (c1 - c7) and a 2nd set of colors for the odd weeks (c8 - c14)<br><code>$('body').coloredBG({c4:'ffcc00',c5:'000000'});</code><br><br><strong>Bounce element</strong><br> 
+times = amount of bounces / distance = height of bounce / speed = speed of bounce<br><code>$('.fDiv').bounceElement({times:5, distance:90, speed:300});</code><br><br><strong>Rotate element</strong>
+Rotate elements to a fixed degree<br><code>$('.fDiv').fixedRotate({degrees:200});</code><br><br>
+Rotate elements random to predefined degrees<br><code>$('.sDiv').randomRotate();</code><br><br>
+Rotate elements with animation, degrees = amount of degrees / duration = speed of animation<br><code>$('.mDiv').animateRotate({degrees:300,duration:8.0});</code></p>
         </section>
 
         <footer>
